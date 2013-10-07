@@ -102,10 +102,9 @@
   default = tracking
 [core]
   autocrlf = false
-  editor = vim
   filemode = false
 [advice]
-  statusHints = false
+  statusHints = true
 [diff]
   # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
   # instead of a/b/c/d as prefixes for patches
@@ -117,7 +116,7 @@
 [credential]
   helper = cache --timeout=18000
 [user]
-  name = Nahuel Garbezza
-  email = n.garbezza@gmail.com
+  name = hslavich
+  email = hernan.slavich@gmail.com
 [github]
-  user = ngarbezza
+  user = hslavich
