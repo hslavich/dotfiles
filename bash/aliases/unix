@@ -31,6 +31,7 @@ alias shutdown='sudo shutdown -h now'
 alias :q='exit'
 alias q='exit'
 
+alias psg='ps -e | grep'
 alias process='ps fax | grep'
 # TODO: ps faux | grep '[r]uby' for skipping the grep process itself
 # cannot possible with alias, implement a function or python script
@@ -40,6 +41,8 @@ alias tf='tail -f'
 alias mounted='mount | column -t'
 
 alias +x='chmod +x'
+alias 777='chmod -R 777'
+alias 755='chmod -R 755'
 
 alias k='kill -9'
 
