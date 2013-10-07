@@ -1,1 +1,2 @@
-PS1="[$Blue\u$Color_Off@$Cyan\h$IRed\$(__git_ps1)\$(__hg_ps1)$Color_Off $Yellow\W$Color_Off]\$ "
+PROMPT_DIRTRIM=2
+PS1="$BGreen\u$IRed\$(__git_ps1)\$(__hg_ps1)$Color_Off $Yellow\w$Color_Off \$ "
