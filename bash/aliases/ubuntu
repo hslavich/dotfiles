@@ -1,0 +1,4 @@
+alias apti='sudo apt-get -y install'
+alias aptu='sudo apt-get update'
+alias apts='apt-cache search'
+alias aptadd='sudo add-apt-repository'
