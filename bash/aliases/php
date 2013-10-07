@@ -1,0 +1,16 @@
+alias p='php'
+alias pa='php -a'
+alias pv='php --version'
+alias pl='php -l'
+alias pf='php --rf'
+alias pc='php --rc'
+alias pe='php --re'
+alias pi='php -i'
+alias pini='php --ini'
+
+# Symfony2
+alias sf='php app/console'
+alias sfcc='sf cache:clear'
+alias sfge='sf doctrine:generate:entities'
+alias sfsu='sf doctrine:schema:update'
+alias sfai='sf assets:install'
