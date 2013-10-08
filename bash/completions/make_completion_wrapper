@@ -26,3 +26,9 @@ function $function_name {
     eval "$function"
 }
 
+# Force load of _apt_get completion function
+_xfunc apt-get _apt_get
+
+# completion for agi alias
+make-completion-wrapper _apt_get _apt_get_install apt-get install
+complete -F _apt_get_install agi
