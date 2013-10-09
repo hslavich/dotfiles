@@ -9,8 +9,13 @@ _symfony2_console()
 {
     local cur prev opts
     COMPREPLY=()
+
     _get_comp_words_by_ref -n : cur prev
-    opts=$(app/console | sed '1,/.*Available commands/d' | grep -o '^  .*  ')
+    
+    if type app/console &>/dev/null
+    then
+        opts=$(app/console | sed '1,/.*Available commands/d' | grep -o '^  .*  ')
+    fi
     COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
     __ltrim_colon_completions "$cur"
     return 0

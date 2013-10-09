@@ -27,7 +27,7 @@ function $function_name {
 }
 
 # Force load of _apt_get completion function
-_xfunc apt-get _apt_get
+_xfunc apt-get _apt_get &>/dev/null
 
 # completion for agi alias
 make-completion-wrapper _apt_get _apt_get_install apt-get install
