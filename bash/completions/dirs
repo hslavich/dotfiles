@@ -1,0 +1,27 @@
+__dir() {
+  COMPREPLY=()
+  cur="${COMP_WORDS[COMP_CWORD]}"
+  prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+  local root=$1
+  local projects=$(dir $root)
+
+  COMPREPLY=($(compgen -W "${projects}" -- "${cur}"))
+}
+
+_dir_workspace() {
+  __dir $WORKSPACE_HOME
+}
+
+_dir_dev() {
+  __dir $DEV_HOME
+}
+
+_dir_dotfiles() {
+  __dir $DOTFILES_HOME
+}
+
+
+complete -F _dir_workspace ws
+complete -F _dir_dev dev
+complete -F _dir_dotfiles dtf

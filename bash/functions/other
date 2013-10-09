@@ -1,0 +1,19 @@
+updatebash() {
+    local wd=$PWD
+    cd $DOTFILES_HOME/post-install
+    . update-terminal-shells
+    cd $wd
+}
+
+ws() {
+  cd "$WORKSPACE_HOME/$1"
+}
+
+dev() {
+  cd "$DEV_HOME/$1"
+}
+
+dtf() {
+  cd "$DOTFILES_HOME/$1"
+}
+

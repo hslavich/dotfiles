@@ -6,3 +6,4 @@ source $FUNCTIONS_PATH/extract
 source $FUNCTIONS_PATH/octopress
 source $FUNCTIONS_PATH/ruby
 source $FUNCTIONS_PATH/postgres
+source $FUNCTIONS_PATH/other
