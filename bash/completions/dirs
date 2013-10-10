@@ -4,9 +4,9 @@ __dir() {
   prev="${COMP_WORDS[COMP_CWORD-1]}"
 
   local root=$1
-  local projects=$(dir $root)
+  local folders=$(dir -1p $root/ | grep /)
 
-  COMPREPLY=($(compgen -W "${projects}" -- "${cur}"))
+  COMPREPLY=($(compgen -W "${folders}" -- "${cur}"))
 }
 
 _dir_workspace() {
