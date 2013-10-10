@@ -2,3 +2,5 @@ alias agi='sudo apt-get -y install'
 alias agu='sudo apt-get update'
 alias ags='apt-cache search'
 alias agadd='sudo add-apt-repository'
+
+alias dmr='sudo service lightdm restart'
