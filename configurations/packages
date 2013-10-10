@@ -3,16 +3,12 @@ gdebi
 compizconfig-settings-manager
 gnome-tweak-tool
 meld
-mysql-workbench
-mysql-server
-pgadmin3
-postgresql
+mysql-workbench mysql-server
+php5 php5-mysql php5-pgsql php-pear
+pgadmin3 postgresql
 openjdk-6-jdk
+build-essential
 ubuntu-restricted-extras
-php5
-php5-mysql
-php5-pgsql
-php-pear
 git
 subversion
 maven
@@ -34,3 +30,5 @@ exfalso
 alacarte
 curl
 shutter
+faenza-icon-theme
+sublime-text

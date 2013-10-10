@@ -1,3 +1,11 @@
 #!/bin/bash
 
+repofile="../configurations/repositories"
+if [ -f $repofile ]; then
+    while read p; do
+        sudo apt-add-repository -y $p
+    done < $repofile
+    sudo apt-get update
+fi
+
 sudo apt-get -y install $(< ../configurations/packages)
