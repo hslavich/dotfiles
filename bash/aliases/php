@@ -14,3 +14,5 @@ alias sfcc='sf cache:clear'
 alias sfge='sf doctrine:generate:entities'
 alias sfsu='sf doctrine:schema:update'
 alias sfai='sf assets:install'
+
+alias apr='sudo apache2ctl restart'
