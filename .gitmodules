@@ -1,6 +1,0 @@
-[submodule "utilities/rbenv"]
-	path = utilities/rbenv
-	url = https://github.com/sstephenson/rbenv.git
-[submodule "utilities/ruby-build"]
-	path = utilities/ruby-build
-	url = https://github.com/sstephenson/ruby-build.git
