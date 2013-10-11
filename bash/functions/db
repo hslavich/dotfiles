@@ -1,0 +1,11 @@
+postgres-pass() {
+    sudo -u postgres psql -c "ALTER USER postgres WITH PASSWORD '$1'"
+}
+
+postgres-createdb() {
+    sudo -u postgres psql -c "CREATE DATABASE $1"
+}
+
+mysql-createdb() {
+    mysql -u root -p -v -e "CREATE DATABASE $1"
+}
