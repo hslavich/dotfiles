@@ -1,0 +1,11 @@
+#!/bin/bash
+
+base=`dirname $0`
+stbase=~/.config/sublime-text-2
+
+mkdir -p $stbase/Installed\ Packages/
+cp $base/"Package Control.sublime-package" $stbase/Installed\ Packages/
+
+cp $base/"Default (Linux).sublime-keymap" $stbase/Packages/User/
+cp $base/"Preferences.sublime-settings" $stbase/Packages/User/
+cp $base/"Package Control.sublime-settings" $stbase/Packages/User/

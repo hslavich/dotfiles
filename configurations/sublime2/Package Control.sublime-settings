@@ -1,0 +1,13 @@
+{
+	"install_missing": true,
+	"installed_packages":
+	[
+		"Package Control",
+		"PHP-Twig",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Symfony2 Snippets",
+		"Emmet",
+		"Theme - Phoenix"
+	]
+}
