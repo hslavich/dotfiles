@@ -1,0 +1,17 @@
+{
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "ensure_newline_at_eof_on_save": true,
+    "word_wrap": false,
+    "font_size": 11,
+
+    "theme": "Phoenix Dark.sublime-theme",
+    "color_scheme": "Packages/Theme - Phoenix/Color Scheme/Phoenix Dark Red.tmTheme",
+    "phoenix_color_expanded_folder": true,
+    "phoenix_color_red": true,
+    "phoenix_dirty_bottom_bar": true,
+    "phoenix_highlight_current_tab": true,
+    "phoenix_solid_current_tab": true,
+    "phoenix_tabs_auto_width": true,
+    "phoenix_tabs_medium": true
+}
