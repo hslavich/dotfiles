@@ -1,0 +1,40 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>Terminal</icon>
+	<name>Open Terminal Here</name>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>sublime_text</icon>
+	<name>Open with Sublime Text</name>
+	<command>subl %f</command>
+	<description>Open with Sublime Text</description>
+	<patterns>*</patterns>
+	<directories/>
+	<text-files/>
+</action>
+<action>
+	<icon>meld</icon>
+	<name>Compare</name>
+	<command>meld %F</command>
+	<description>Compare with Meld</description>
+	<patterns>*</patterns>
+	<directories/>
+	<text-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Rename subtitles</name>
+	<command>subrnm %F</command>
+	<description>Select video and subtitles file. Subtiles will be reanmed based on the video name.</description>
+	<patterns>*.avi;*.mp4;*.mkv;*.crdownload;*.srt;*.sub</patterns>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>
