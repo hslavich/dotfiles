@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Thunar default file manager
+sudo sed -i.bkp 's/inode\/directory=Thunar.desktop/inode\/directory=nautilus-folder-handler.desktop/g' /usr/share/applications/defaults.list
+
+# Sublime Text default editor
+sudo sed -i.bkp 's/gedit.desktop/sublime-text.desktop/g' /usr/share/applications/defaults.list
