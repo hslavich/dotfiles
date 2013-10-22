@@ -13,7 +13,7 @@ filename=$(basename "$1")
 extension=${filename##*.}
 
 # Video first
-if [ "$extension" == "avi" ] || [ "$extension" == "mp4" ] || [ "$extension" == "crdownload" ]; then
+if [ "$videext" != "mkv" ] || [ "$extension" == "avi" ] || [ "$extension" == "mp4" ] || [ "$extension" == "crdownload" ]; then
 	#echo "First file is a video"
 	subtitles=$(basename "$2")
 	extension=${subtitles##*.}
