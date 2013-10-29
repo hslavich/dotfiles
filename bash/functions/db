@@ -9,3 +9,7 @@ postgres-createdb() {
 mysql-createdb() {
     mysql -u root -p -v -e "CREATE DATABASE $1"
 }
+
+mysql-showdbs() {
+    mysql -u root -p -v -e "SHOW DATABASES;"
+}
