@@ -16,3 +16,4 @@ alias sfsu='sf doctrine:schema:update'
 alias sfai='sf assets:install'
 
 alias apr='sudo apache2ctl restart'
+alias aplog='tail -f /var/log/apache2/error.log'
