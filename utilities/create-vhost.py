@@ -19,7 +19,7 @@ def get_filename(server):
 
 def create_host(server, root):
     f = open(get_filename(server), 'w')
-    f.write('<VirtualHost %s>\n' % server)
+    f.write('<VirtualHost *:80>\n')
     f.write('    ServerName %s\n' % server)
     f.write('    DocumentRoot %s\n' % root)
     f.write('    <Directory %s>\n' % root)
