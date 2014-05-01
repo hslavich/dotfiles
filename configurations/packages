@@ -6,7 +6,7 @@ meld
 mysql-workbench mysql-server
 php5 php5-mysql php5-pgsql php-pear
 pgadmin3 postgresql
-openjdk-6-jdk
+openjdk-7-jdk
 build-essential
 ubuntu-restricted-extras
 git
@@ -31,5 +31,4 @@ exfalso
 alacarte
 curl
 shutter
-faenza-icon-theme
 sublime-text
