@@ -15,5 +15,12 @@ alias sfge='sf doctrine:generate:entities'
 alias sfsu='sf doctrine:schema:update'
 alias sfai='sf assets:install'
 
+# Symfony3
+alias sf3='php bin/console'
+alias sf3cc='sf3 cache:clear'
+alias sf3ge='sf3 doctrine:generate:entities'
+alias sf3su='sf3 doctrine:schema:update'
+alias sf3ai='sf3 assets:install'
+
 alias apr='sudo apache2ctl restart'
 alias aplog='tail -f /var/log/apache2/error.log'

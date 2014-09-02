@@ -11,10 +11,14 @@ _symfony2_console()
     COMPREPLY=()
 
     _get_comp_words_by_ref -n : cur prev
-    
+
     if type app/console &>/dev/null
     then
         opts=$(app/console | sed '1,/.*Available commands/d' | grep -o '^  .*  ')
+    fi
+    if type bin/console &>/dev/null
+    then
+        opts=$(bin/console | sed '1,/.*Available commands/d' | grep -o '^  .*  ')
     fi
     COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
     __ltrim_colon_completions "$cur"
@@ -23,3 +27,4 @@ _symfony2_console()
 
 complete -F _symfony2_console app/console
 complete -F _symfony2_console sf
+complete -F _symfony2_console sf3
