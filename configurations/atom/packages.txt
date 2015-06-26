@@ -1,0 +1,12 @@
+autocomplete-php
+color-picker
+file-icons
+git-plus
+linter
+linter-php
+minimap
+php-twig
+project-manager
+seti-syntax
+seti-ui
+tabs-to-spaces

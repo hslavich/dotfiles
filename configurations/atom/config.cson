@@ -1,0 +1,17 @@
+"*":
+  "exception-reporting":
+    userId: "462827a5-3a33-fed2-fa3e-c0be0a7c9e4f"
+  welcome:
+    showOnStartup: false
+  core:
+    projectHome: "/home/hslavich/dev"
+  editor:
+    invisibles: {}
+    fontFamily: "Source code pro medium"
+    tabLength: 4
+    fontSize: 15
+    lineHeight: 1.4
+  linter: {}
+  minimap: {}
+  "tabs-to-spaces":
+    onSave: "untabify"

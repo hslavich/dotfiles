@@ -35,3 +35,7 @@
 'atom-workspace atom-text-editor':
   'ctrl-g': 'editor:select-line'
   'ctrl-l': 'go-to-line:toggle'
+
+'.platform-linux':
+  'alt-shift-P': 'window:run-package-specs'
+  'ctrl-alt-p': 'project-manager:toggle'
