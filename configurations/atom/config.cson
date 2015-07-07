@@ -5,13 +5,17 @@
     showOnStartup: false
   core:
     projectHome: "/home/hslavich/dev"
+    excludeVcsIgnoredPaths: false
   editor:
     invisibles: {}
     fontFamily: "Source code pro medium"
     tabLength: 4
     fontSize: 15
-    lineHeight: 1.4
+    lineHeight: 1.3
+    showIndentGuide: true
   linter: {}
   minimap: {}
   "tabs-to-spaces":
     onSave: "untabify"
+  "one-dark-ui":
+    layoutMode: "Compact"

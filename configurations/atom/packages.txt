@@ -7,6 +7,5 @@ linter-php
 minimap
 php-twig
 project-manager
-seti-syntax
-seti-ui
 tabs-to-spaces
+emmet

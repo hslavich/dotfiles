@@ -25,6 +25,7 @@
 # https://github.com/bevry/cson#what-is-cson
 'atom-text-editor:not([mini])':
   'ctrl-d': 'editor:delete-line'
+  'ctrl-e': 'emmet:expand-abbreviation'
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-alt-down': 'editor:duplicate-lines'
@@ -39,3 +40,9 @@
 '.platform-linux':
   'alt-shift-P': 'window:run-package-specs'
   'ctrl-alt-p': 'project-manager:toggle'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-g': 'find-and-replace:use-selection-as-find-pattern'
+
+'body':
+  'ctrl-shift-W': 'custom:close-panes'
