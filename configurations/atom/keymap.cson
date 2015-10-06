@@ -38,8 +38,8 @@
   'ctrl-l': 'go-to-line:toggle'
 
 '.platform-linux':
+  'ctrl-alt-p': 'project-manager:list-projects'
   'alt-shift-P': 'window:run-package-specs'
-  'ctrl-alt-p': 'project-manager:toggle'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-g': 'find-and-replace:use-selection-as-find-pattern'
