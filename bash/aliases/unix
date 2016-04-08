@@ -52,4 +52,7 @@ alias os='cat /etc/*release | grep ^ID= | cut -d= -f2'
 
 alias x='startx'
 
-alias rmr='rm -R'
+alias rmr='rm -Rf'
+
+alias psg='ps -e | grep'
+alias s='sudo '

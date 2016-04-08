@@ -1,10 +1,8 @@
 ALIASES_PATH=$BASE_PATH/aliases
 
 source $ALIASES_PATH/unix
-source $ALIASES_PATH/arch
 source $ALIASES_PATH/ubuntu
 source $ALIASES_PATH/git
-source $ALIASES_PATH/mercurial
 source $ALIASES_PATH/svn
 source $ALIASES_PATH/code
 source $ALIASES_PATH/ruby
@@ -12,4 +10,3 @@ source $ALIASES_PATH/java
 source $ALIASES_PATH/php
 source $ALIASES_PATH/apps
 source $ALIASES_PATH/docker
-source $ALIASES_PATH/other
