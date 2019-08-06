@@ -3,8 +3,8 @@
 rm -Rf ~/.bash
 cp -R ../bash/ ~/.bash
 SOURCE="source ~/.bash/nahuelrc"
-if ! grep -Fxq "$SOURCE" ~/.bashrc
+if ! grep -Fxq "$SOURCE" ~/.zshrc
 then
-    echo $SOURCE >> ~/.bashrc
+    echo $SOURCE >> ~/.zshrc
 fi
-source ~/.bashrc
+source ~/.zshrc

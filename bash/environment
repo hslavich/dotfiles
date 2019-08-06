@@ -1,6 +1,4 @@
 export DEV_HOME=$HOME/dev
-export WORKSPACE_HOME=$HOME/dev/workspace
-export DOTFILES_HOME=$HOME/dev/dotfiles
 
 export COMPOSER_HOME=$HOME/.composer
 

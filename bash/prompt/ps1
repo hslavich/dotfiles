@@ -1,4 +1,0 @@
-PROMPT_DIRTRIM=2
-GIT_PS1_SHOWDIRTYSTATE=1
-GIT_PS1_SHOWUNTRACKEDFILES=1
-PS1="$BGreen\u$IRed\$(__git_ps1)\$(__hg_ps1)$Color_Off $Yellow\w$Color_Off \$ "
